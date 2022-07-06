@@ -5,6 +5,8 @@
 //Copyright © 2022
 //Licencia: MIT
 
+import 'https://cdn.jsdelivr.net/gh/NicproSer/FireCSS@main/dist/css/fire.css';
+
 //Slider
 
 function Carousel(element) {
