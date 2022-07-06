@@ -1,4 +1,4 @@
-//Fire CSS V 0.1.6
+//Fire CSS V 1.0.0
 //@author: Fire de NICPRO SERVICE
 //nicproservice (https://nicprodev.mgpanel.org)
 //Realizado por Nicolás Gómez
@@ -131,10 +131,7 @@ var carousels = Array.prototype.map.call(document.querySelectorAll('.carousel'),
   return carousel;
 });
 
-//Navbar
 
-
-//Navbar-Sidebar Open Close JS Code
 
 
 //Dropdown
@@ -145,7 +142,7 @@ function show(anything){
 let dropdown = document.querySelector('.dropdown');
 dropdown.onclick = function(){
    dropdown.classList.toggle('active');
-}
+};
 
 //MODAL
 
@@ -179,7 +176,7 @@ document.addEventListener("keyup", e => {
   }
 });
 
-//Temas
+
 
 
 //Scroll Up
@@ -206,4 +203,4 @@ window.onscroll = function(){
    }else if(scroll < 500){
       buttonUp.style.transform = "scale(0)";
    }
-}
+};
