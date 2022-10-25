@@ -1,0 +1,41 @@
+{
+  "name": "firecss",
+  "version": "1.2.0",
+  "description": "Framework Css que te ayuda a crear una aplicación web",
+  "main": "/src/dist/css/fire.css",
+  "unpkg": "css/fire.css",
+  "style": "src/dist/css/fire.css",
+  "files": [
+    "css",
+    "src",
+    "dist",
+    "js",
+    "fire.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicproSer/FireCSS.git"
+  },
+  "keywords": [
+    "css",
+    "responsive",
+    "framework",
+    "front-end",
+    "html",
+    "html5",
+    "firecss"
+  ],
+  "author": {
+    "name": "Nicolás Gómez",
+    "email": "servicenicpro@gmail.com",
+    "url": "https://nicprodev.mgpanel.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicproSer/FireCSS/issues"
+  },
+  "homepage": "https://github.com/NicproSer/FireCSS#readme"
+}
